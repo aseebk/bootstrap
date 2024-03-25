@@ -1,0 +1,105 @@
+Bootstrap
+----------
+Bootstrap is a powerful front-end framework that simplifies the process of building
+responsive and visually appealing websites and web applications. By utilizing its
+comprehensive suite of pre-built components and CSS classes, developers can create
+stunning interfaces with minimal effort. 
+
+Syntax and Containers:
+-----------------------
+Bootstrap utilizes intuitive syntax and provides container classes to structure the
+layout of web pages effectively. Containers ensure consistent padding and margins across
+different screen sizes, maintaining a clean and organized appearance.
+       .container, which sets a max-width at each responsive breakpoint
+       .container-{breakpoint}, which is width: 100% until the specified breakpoint
+       .container-fluid, which is width: 100% at all breakpoints
+
+Button:
+---------
+Bootstrap offers a variety of button styles and sizes, making it easy to create visually
+engaging call-to-action buttons for various purposes
+
+.btn	Adds basic styling to any button	
+.btn-default	Indicates a default/standard button	
+.btn-primary	Provides extra visual weight and identifies the primary action in a set of buttons	
+.btn-success	Indicates a successful or positive action	
+.btn-info	Contextual button for informational alert messages	
+.btn-warning	Indicates caution should be taken with this action
+.btn-danger	Indicates a dangerous or potentially negative action	
+.btn-link	Makes a button look like a link (will still have button behavior)
+.btn-outline-* ones to remove all background images and colors on any button.
+.btn-lg or .btn-sm for additional sizes.
+
+Grid System:
+------------
+The responsive grid system in Bootstrap allows developers to create flexible layouts by
+dividing the page into 12 columns, facilitating seamless adaptation to different screen sizes
+and devices.
+*xs (for phones - screens less than 768px wide)
+*sm (for tablets - screens equal to or greater than 768px wide)
+*md (for small laptops - screens equal to or greater than 992px wide)
+*lg (for laptops and desktops - screens equal to or greater than 1200px wide)
+
+Table:
+--------
+Bootstrap provides CSS classes to style tables, making them more readable and visually appealing
+with features such as striped rows, hover effects, and responsive behavior.
+
+.table class adds basic styling to a table
+.table-striped class adds zebra-stripes to a table
+.table-bordered class adds borders on all sides of the table and cells
+.table-hover class adds a hover effect (grey background color) on table rows
+
+Form:
+------
+With Bootstrap's form components, developers can design user-friendly input fields, checkboxes,
+radio buttons, and other form elements, ensuring a cohesive and aesthetically pleasing form layout.
+
+Alert:
+-------
+Bootstrap's alert component enables developers to display important messages and notifications to
+users in a visually striking and attention-grabbing manner.
+
+Badge and Label:
+-----------------
+Badges and labels are useful for highlighting important information or indicating status. Bootstrap
+offers customizable badges and labels to suit various design needs.
+*badge class within <span> elements to create badges
+*label class,  followed by one of the six contextual classes .label-default, .label-primary, .label-success, .label-info, 
+  label-warning or .label-danger
+
+Pagination:
+---------------------------
+Pagination is a crucial component in web development, particularly when dealing with large datasets or content
+spread across multiple pages. Bootstrap offers a convenient way to implement pagination with its built-in components
+
+Pager:
+--------
+The pagination component in Bootstrap is used for creating navigation between content across multiple pages. 
+It typically consists of previous and next buttons to navigate between pages of content.
+
+Image:
+--------
+Bootstrap offers utility classes for styling images, including responsive images and image thumbnails,
+ensuring optimal display on all devices.
+.img-rounded class adds rounded corners to an image
+.img-circle class shapes the image to a circle 
+.img-thumbnail class shapes the image to a thumbnail
+The .thumbnail class can be used to display an image gallery
+The .caption class adds proper padding and a dark grey color to text inside thumbnails.
+
+Carousel:
+-------------
+The Bootstrap carousel component allows developers to create dynamic slideshows with images, text, or any other
+content, enhancing the visual appeal of web pages.
+
+Progress Bar:
+------------------
+Progress bars provide visual feedback on the completion status of tasks or processes. Bootstrap's progress
+bar component can be customized to match the design aesthetic of the website.
+.progress class to a <div> element
+.progress-bar-success
+.progress-bar-info
+.progress-bar-warning
+.progress-bar-danger
+Add class .active to animate the progress bar
