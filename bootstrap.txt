@@ -103,3 +103,43 @@ bar component can be customized to match the design aesthetic of the website.
 .progress-bar-warning
 .progress-bar-danger
 Add class .active to animate the progress bar
+
+List Group:
+--------------
+Bootstrap's list group component offers a versatile way to display lists of content, such as menus,
+user profiles, or navigation links, with various styling options available.
+ .list-group-item-success, list-group-item-secondary, list-group-item-info, list-group-item-warning,
+ .list-group-item-danger, .list-group-item-primary, list-group-item-dark
+
+Dropdown:
+--------------
+Dropdown menus are essential for organizing and accessing a large number of options or actions. Bootstrap provides
+customizable dropdown components with built-in functionality.
+ .dropdown class indicates a dropdown menu
+.dropdown-divider class is used to separate links inside the dropdown menu with a thin horizontal border
+
+Collapse:
+--------------
+Bootstrap's collapse component enables developers to create collapsible content sections, conserving space and
+improving user experience by allowing users to toggle visibility as needed.
+.collapse class indicates a collapsible element (a <div> in our example); this is the content that will be
+shown or hidden with a click of a button
+
+Tabs:
+---------
+Tabs are useful for organizing content into distinct sections, improving navigation and usability. Bootstrap offers
+tab components with customizable styles and behavior.
+  .nav-tabs class
+
+Navbar:
+-----------
+The Bootstrap navbar component provides a responsive navigation bar that adapts to different screen sizes,
+ensuring easy access to site navigation on both desktop and mobile devices.
+A standard navigation bar is created with the .navbar class
+Add the .justify-content-center class to center the navigation bar
+.bg-color classes to change the background color of the navbar
+
+Input Types:
+-----------------
+Bootstrap supports various input types, including text fields, checkboxes, radio buttons, and more, with consistent
+styling and behavior across different browsers.
