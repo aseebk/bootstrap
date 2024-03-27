@@ -143,3 +143,34 @@ Input Types:
 -----------------
 Bootstrap supports various input types, including text fields, checkboxes, radio buttons, and more, with consistent
 styling and behavior across different browsers.
+
+Modals and Popover:
+---------------------------
+Bootstrap's modal and popover components allow developers to create modal dialogs and
+pop-up tooltips, enhancing interactivity and user engagement.
+
+Border, Colors, Display, and Position:
+------------------------------------------------
+Bootstrap provides extensive utility classes for styling borders, applying colors, and controlling
+the display and position of elements, offering flexibility and customization options.
+
+Colors- .text-primary, .text-success, .text-info, .text-warning, .text-danger, .text-secondary
+background colors are: .bg-primary, .bg-success, .bg-info, .bg-warning, .bg-danger, .bg-secondary,
+.bg-dark and .bg-light
+
+Display flexbox container and to transform direct children into flex items, use the d-flex class
+*Use .flex-column to display the flex items vertically
+*.flex-row to display the flex items horizontally (side by side).
+
+Display Property
+ d-inline- Controls the display behavior of elements, making them display as block,
+inline, or inline-block respectively.
+d-sm-none, d-md-none, d-lg-none, d-xl-none: Hides elements on different screen sizes.
+
+Position
+----------
+FixedTop
+Use these helpers for quickly configuring the position of an element.
+
+Fixed bottom 
+Position an element at the bottom of the viewport, from edge to edge.
